@@ -1,0 +1,31 @@
+name: jason_crawler
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2020.12.5=h033912b_0
+  - certifi=2020.12.5=py39h6e9494a_0
+  - libcxx=11.0.0=h4c3b8ed_1
+  - libffi=3.3=h046ec9c_2
+  - ncurses=6.2=h2e338ed_4
+  - openssl=1.1.1i=h35c211d_0
+  - pip=20.3.1=pyhd8ed1ab_0
+  - python=3.9.1=h1d169a7_1_cpython
+  - python_abi=3.9=1_cp39
+  - readline=8.0=h0678c8f_2
+  - setuptools=49.6.0=py39h2c36a5b_2
+  - sqlite=3.34.0=h17101e1_0
+  - tk=8.6.10=h0419947_1
+  - tzdata=2020d=h516909a_0
+  - wheel=0.36.2=pyhd3deb0d_0
+  - xz=5.2.5=haf1e3a3_1
+  - zlib=1.2.11=h7795811_1010
+  - pip:
+    - beautifulsoup4==4.9.3
+    - chardet==3.0.4
+    - idna==2.10
+    - progress==1.5
+    - requests==2.25.0
+    - soupsieve==2.1
+    - urllib3==1.26.2
+
